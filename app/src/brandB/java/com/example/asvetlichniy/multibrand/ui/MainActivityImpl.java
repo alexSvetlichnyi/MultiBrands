@@ -12,7 +12,7 @@ public class MainActivityImpl extends MainActivity {
     public void showDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivityImpl.this);
         builder.setTitle("Brand B");
-        builder.setMessage("Welcome to Brand B");
+        builder.setMessage(String.format("Hi %s, Welcome to Brand B", user.getFirstName()));
         builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {

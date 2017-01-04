@@ -6,6 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.example.asvetlichniy.common.models.User;
 import com.example.asvetlichniy.multibrand.R;
 import com.example.asvetlichniy.multibrand.databinding.ActivityMainBinding;
 import com.example.asvetlichniy.multibrand.viewmodel.MainActivityViewModel;
@@ -14,7 +15,8 @@ import com.example.asvetlichniy.multibrand.viewmodel.MainActivityViewModel;
  * Base Activity class with common logic for both brands
  */
 public abstract class MainActivity extends AppCompatActivity {
-
+    @NonNull
+    protected User user = new User("Alex");
     @NonNull
     protected MainActivityViewModel viewModel = new MainActivityViewModel();
     @NonNull
