@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Brand B</string>
+    <string name="button">Press me</string>
+    <string name="welcome_message">Hello Brand B</string>
+</resources>

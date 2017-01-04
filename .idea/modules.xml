@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MultiBrand.iml" filepath="$PROJECT_DIR$/MultiBrand.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/brandA/brandA.iml" filepath="$PROJECT_DIR$/brandA/brandA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/brandB/brandb.iml" filepath="$PROJECT_DIR$/brandB/brandb.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
     </modules>
   </component>
